@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skyron.ua — Стильний светр</title>
+  <meta name="description" content="Skyron.ua — Стильний светр. Швидка відправка Новою Поштою." />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+    for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e};
+    ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");
+    n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(n,s)
+    };
+    ttq.load('D4OBCO3C77U7MI8IQKIG');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Skyron.ua</a>
+      <nav class="nav">
+        <a href="#advantages">Переваги</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#order" class="btn btn-small btn-primary">Замовити</a>
+      </nav>
+      <a class="support-phone" href="tel:+380733337278">+380 73 333 72 78</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Стильний чоловічий светр на блискавці</h1>
+          <p class="lead">Преміальний крій — підходить для вечірок,свят, та для повсякденного носіння.</p>
+
+          <div class="price-block">
+            <div class="countdown">
+              <span class="count-label">Знижка діє ще:</span>
+              <div id="timer" class="timer">00:59:59</div>
+            </div>
+            <div class="price" id="priceValue">999 грн</div>
+          </div>
+
+          <ul class="features-list">
+            <li>Якісний матеріал перевірений часом</li>
+            <li>Анатомічна посадка — розміри S–XXL</li>
+            <li>Швидка відправка Новою Поштою</li>
+          </ul>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#order">Купити зараз</a>
+            <a class="btn btn-outline" id="btnPreview" href="#catalog">Подивитись кольори</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="product-frame" aria-live="polite">
+            <div class="img-wrap">
+              <img src="images/1.png" alt="Фото товару" id="mainImage">
+            </div>
+
+            <div class="carousel-controls" id="carouselControls" aria-hidden="true">
+              <button id="prevImg" title="Назад" aria-label="Попереднє фото">‹</button>
+              <button id="nextImg" title="Вперед" aria-label="Наступне фото">›</button>
+            </div>
+
+            <div class="carousel-counter" id="carouselCounter" style="display:none" aria-hidden="true">1 / 1</div>
+
+            <div class="swatches" id="swatches" role="list" aria-label="Колір товару"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="advantages" class="section-light">
+      <div class="container">
+        <h2>Чому обирають нас?</h2>
+        <div class="advantages-grid">
+          <div class="adv">
+            <h3>Матеріали</h3>
+            <p>Якісний матеріал, не втрачає форму та колір після прання.</p>
+          </div>
+          <div class="adv">
+            <h3>Крій</h3>
+            <p>Анатомічна посадка — зручно під час руху, виглядає стильно.</p>
+          </div>
+          <div class="adv">
+            <h3>Гарантія</h3>
+            <p>14 днів на повернення — обмін або повернення, якщо товар у новому стані з бирками.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section id="catalog" class="container">
+      <h2>Каталог — популярні кольори</h2>
+      <p class="muted">Натисни на колір, щоб змінити фото та переглянути варіант.</p>
+      <div class="catalog-grid" id="catalogGrid" aria-live="polite"></div>
+    </section>
+
+    <!-- Order -->
+    <section id="order" class="container order-section">
+      <div class="order-grid">
+        <div class="order-left">
+            <button type="button" id="btnQuickOrder" class="btn btn-quick-order">Швидке замовлення</button>
+          <h2>Оформити замовлення</h2>
+          <p class="muted">Заповніть форму — ми зв'яжемося найближчим часом. Також можна зв'язатися через Telegram або Viber.</p>
+
+
+          <form id="orderForm" class="form" autocomplete="off" novalidate>
+            <div class="form-row">
+              <label style="flex:1">Укажіть зріст (см)
+                <input type="number" id="height" name="height" min="100" max="250" placeholder="175" required>
+              </label>
+
+              <label style="flex:1">Укажіть вагу (кг)
+                <input type="number" id="weight" name="weight" min="30" max="200" placeholder="78" required>
+              </label>
+            </div>
+
+            <label>Колір
+              <select name="color" id="colorSelect" required>
+                <option value="">Оберіть колір</option>
+              </select>
+            </label>
+
+            <label>Кількість
+              <input type="number" id="qty" name="qty" min="1" value="1" required>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" id="btnSubmitOrder" class="btn btn-order">Відправити замовлення</button>
+              <button type="button" id="btnConsultTG" class="btn btn-telegram">Консультація в Telegram</button>
+              <button type="button" id="btnConsultViber" class="btn btn-viber">Консультація в Viber</button>
+            </div>
+
+            <div id="formResult" class="form-result" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <aside class="order-right">
+          <div class="summary-card">
+            <h3>Ваша корзина</h3>
+            <p id="summaryProduct">Светр — <span id="summaryColor">—</span></p>
+            <p>Зріст: <span id="summaryHeight">—</span> см</p>
+            <p>Вага: <span id="summaryWeight">—</span> кг</p>
+            <p class="big">До оплати: <strong id="summaryTotal">0 грн</strong></p>
+            <p class="muted small">Доставка: Нова Пошта (1–3 дні).</p>
+            <ul class="guarantees">
+              <li>Відправка накладеним платежем</li>
+              <li>Повернення 14 днів (товар не повинен бути пошкоджений, збережені бирки)</li>
+              <li>Підтримка: <a href="tel:+380733337278" id="supportPhone">+380 73 333 72 78</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>Skyron.ua</h4>
+          <p>Чоловічий светр — швидко, акуратно, надійно. © <span id="year"></span></p>
+        </div>
+        <div>
+          <h4>Контакти</h4>
+          <p>Telegram: <a id="tgLink" href="https://t.me/Skyron_ua" target="_blank" rel="noopener">@Skyron_ua</a></p>
+          <p>Viber: <a id="viberLink" href="#" target="_blank" rel="noopener">Viber спільнота</a></p>
+          <p>Підтримка: <a href="tel:+380733337278">+380 73 333 72 78</a></p>
+        </div>
+        <div>
+          <h4>Доставка</h4>
+          <p>Нова Пошта — 1–3 дні.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  <script src="script.js"></script>
+</body>
+</html>
